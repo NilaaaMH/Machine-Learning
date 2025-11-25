@@ -28,20 +28,23 @@ Meningkatkan efisiensi analisis hukum dengan otomatisasi klasifikasi putusan pen
 - Python 3.20+
 - Google Colab atau Jupyter Notebook
 - Akses Google Drive (jika dataset disimpan di Drive)
+  
+## Contoh Prediksi
+Input                                          | Output
+"terdakwa terbukti melakukan pencurian ayam"   | pencurian biasa
+"terdakwa melakukan pencurian rumah di malam"  | pencurian berat
+
+## Kontributor
+- 202210370311304 - Nilla Mery Handayani
+- 202210370311311 - Adhim Hendra Maulana
+- 202210370311323 - Bastian Feraries WIjaya
 
 ## Instalasi
 ```bash
 git clone https://github.com/username/nama-repo-kamu.git
 cd nama-repo-kamu
 pip install Sastrawi scikit-learn pandas nltk tensorflow transformers torch
-```bash
 
-**## Contoh Prediksi**
-Input                                          | Output
-"terdakwa terbukti melakukan pencurian ayam"   | pencurian biasa
-"terdakwa melakukan pencurian rumah di malam"  | pencurian berat
 
-**## Kontributor**
-- 202210370311304 - Nilla Mery Handayani
-- 202210370311311 - Adhim Hendra Maulana
-- 202210370311323 - Bastian Feraries WIjaya
+
+
