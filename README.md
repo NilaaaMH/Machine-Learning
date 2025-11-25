@@ -31,6 +31,7 @@ Meningkatkan efisiensi analisis hukum dengan otomatisasi klasifikasi putusan pen
   
 ## Contoh Prediksi
 Input                                          | Output
+
 "terdakwa terbukti melakukan pencurian ayam"   | pencurian biasa
 "terdakwa melakukan pencurian rumah di malam"  | pencurian berat
 
