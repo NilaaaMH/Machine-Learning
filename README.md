@@ -34,6 +34,7 @@ Meningkatkan efisiensi analisis hukum dengan otomatisasi klasifikasi putusan pen
 git clone https://github.com/username/nama-repo-kamu.git
 cd nama-repo-kamu
 pip install Sastrawi scikit-learn pandas nltk tensorflow transformers torch
+```bash
 
 **## Contoh Prediksi**
 Input                                          | Output
