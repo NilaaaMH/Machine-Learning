@@ -7,7 +7,11 @@ Klasifikasi Kategori Pencurian Berdasarkan Teks Putusan Pengadilan
 
 Proyek ini mengimplementasikan algoritma **machine learning** dan **deep learning** untuk mengklasifikasikan kategori tindak pidana pencurian (**Pencurian Biasa** vs **Pencurian Berat**) berdasarkan analisis teks putusan Pengadilan Negeri Samarinda.
 
-Dataset diperoleh melalui web scraping dari direktori putusan Mahkamah Agung RI.
+Dengan memanfaatkan Natural Language Processing (NLP) dan transformer, analisis putusan dapat dilakukan secara otomatis dan lebih akurat. Model ini bertujuan:
+- Mengklasifikasikan putusan pencurian ke dalam kategori tertentu (misal: pencurian ringan, pencurian dengan pemberatan, dll)
+- Mendukung analisis hukum berbasis data (legal analytics)
+- Mengurangi beban kerja analis, peneliti hukum, dan lembaga peradilan
+- Dataset diperoleh melalui web scraping dari direktori putusan Mahkamah Agung RI.
 
 ## Tujuan
 Meningkatkan efisiensi analisis hukum dengan otomatisasi klasifikasi putusan pengadilan menggunakan NLP dan machine learning.
@@ -27,7 +31,10 @@ Meningkatkan efisiensi analisis hukum dengan otomatisasi klasifikasi putusan pen
 ## Persyaratan Sistem
 - Python 3.20+
 - Google Colab atau Jupyter Notebook
-- Akses Google Drive (jika dataset disimpan di Drive)
+- Akses Google Drive
+
+## Dataset
+Dataset yang digunakan berupa teks putusan pencurian dari Direktorti Pengadilan Negeri Samarinda yang telah melalui preprocessing.
   
 ## Contoh Prediksi
 Input                                          | Output
@@ -42,8 +49,8 @@ Input                                          | Output
 
 ## Instalasi
 ```bash
-git clone https://github.com/username/nama-repo-kamu.git
-cd nama-repo-kamu
+git clone https://github.com/NilaaMH/Machine-Learning.git
+cd NilaaMH
 pip install Sastrawi scikit-learn pandas nltk tensorflow transformers torch
 
 
