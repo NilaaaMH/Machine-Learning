@@ -5,7 +5,7 @@ Klasifikasi Kategori Pencurian Berdasarkan Teks Putusan Pengadilan
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
-Proyek ini mengimplementasikan algoritma **machine learning** dan **deep learning** untuk mengklasifikasikan kategori tindak pidana pencurian (**Pencurian Biasa** vs **Pencurian Berat**) berdasarkan analisis teks putusan Pengadilan Negeri Samarinda tahun 2024–2025.
+Proyek ini mengimplementasikan algoritma **machine learning** dan **deep learning** untuk mengklasifikasikan kategori tindak pidana pencurian (**Pencurian Biasa** vs **Pencurian Berat**) berdasarkan analisis teks putusan Pengadilan Negeri Samarinda tahun.
 
 Dataset diperoleh melalui web scraping dari direktori putusan Mahkamah Agung RI.
 
